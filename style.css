@@ -1,0 +1,59 @@
+ 
+
+
+body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: navy;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* s-block (Pink) */
+.s{
+    background-color: #f8b6c9;
+}
+
+/* d-block (Blue) */
+.d{
+    background-color: #87CEFA;
+}
+
+/* p-block (Light Green) */
+.p{
+    background-color: #CCFF99;
+}
+
+/* f-block (Light Cyan) */
+.f{
+    background-color: #B2F2BB;
+}
+
+/* Empty cells */
+.empty{
+    border: none;
+    background: transparent;
+}
+
+hr{
+    border: none;
+    height: 3px;
+    background-color: black;
+}
